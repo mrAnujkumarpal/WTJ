@@ -1,0 +1,662 @@
+package org.apache.jsp.WEB_002dINF.jsp;
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import javax.servlet.jsp.*;
+
+public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
+    implements org.apache.jasper.runtime.JspSourceDependent {
+
+  private static final JspFactory _jspxFactory = JspFactory.getDefaultFactory();
+
+  private static java.util.List<String> _jspx_dependants;
+
+  private org.apache.jasper.runtime.TagHandlerPool _jspx_tagPool_c_url_value_nobody;
+
+  private org.glassfish.jsp.api.ResourceInjector _jspx_resourceInjector;
+
+  public java.util.List<String> getDependants() {
+    return _jspx_dependants;
+  }
+
+  public void _jspInit() {
+    _jspx_tagPool_c_url_value_nobody = org.apache.jasper.runtime.TagHandlerPool.getTagHandlerPool(getServletConfig());
+  }
+
+  public void _jspDestroy() {
+    _jspx_tagPool_c_url_value_nobody.release();
+  }
+
+  public void _jspService(HttpServletRequest request, HttpServletResponse response)
+        throws java.io.IOException, ServletException {
+
+    PageContext pageContext = null;
+    HttpSession session = null;
+    ServletContext application = null;
+    ServletConfig config = null;
+    JspWriter out = null;
+    Object page = this;
+    JspWriter _jspx_out = null;
+    PageContext _jspx_page_context = null;
+
+    try {
+      response.setContentType("text/html");
+      pageContext = _jspxFactory.getPageContext(this, request, response,
+      			null, true, 8192, true);
+      _jspx_page_context = pageContext;
+      application = pageContext.getServletContext();
+      config = pageContext.getServletConfig();
+      session = pageContext.getSession();
+      out = pageContext.getOut();
+      _jspx_out = out;
+      _jspx_resourceInjector = (org.glassfish.jsp.api.ResourceInjector) application.getAttribute("com.sun.appserv.jsp.resource.injector");
+
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("<html lang=\"en\">\r\n");
+      out.write("    <meta charset=\"utf-8\">\r\n");
+      out.write("    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n");
+      out.write("    <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css\">\r\n");
+      out.write("    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js\"></script>\r\n");
+      out.write("    <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js\"></script>\r\n");
+      out.write("\r\n");
+      out.write("    <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js\"></script>\r\n");
+      out.write("    <script src=\"https://rawgit.com/kangax/fabric.js/master/dist/fabric.min.js\"></script>\r\n");
+      out.write("    <script src=\"assets/js/main.js\" type=\"text/javascript\"></script>\r\n");
+      out.write("\r\n");
+      out.write("    <body>\r\n");
+      out.write("        <style>\r\n");
+      out.write("            .btn-styl\r\n");
+      out.write("            {\r\n");
+      out.write("                background-color: #3b5998;\r\n");
+      out.write("                border: 1px dotted #3b5998;\r\n");
+      out.write("                color: #fff;\r\n");
+      out.write("                font: 15px sans-serif;\r\n");
+      out.write("                border-radius:1px;\r\n");
+      out.write("                text-decoration: none;\r\n");
+      out.write("                cursor: pointer;\r\n");
+      out.write("                display: inline-block;\r\n");
+      out.write("                font-size: 14px;\r\n");
+      out.write("                font-weight: 400;\r\n");
+      out.write("                line-height: 1.42857;\r\n");
+      out.write("                margin-bottom: 0;\r\n");
+      out.write("                padding: 6px 12px;\r\n");
+      out.write("                text-align: center; \r\n");
+      out.write("                vertical-align: middle;\r\n");
+      out.write("            }\r\n");
+      out.write("            .btn-styl option\r\n");
+      out.write("            {\r\n");
+      out.write("                background-color: #fff;\r\n");
+      out.write("                color:#333;\r\n");
+      out.write("            }\r\n");
+      out.write("            .tsrt-cstm-style\r\n");
+      out.write("            {\r\n");
+      out.write("                display: block;\r\n");
+      out.write("            }\r\n");
+      out.write("            @media(max-width:991px) and (min-width:768px)\r\n");
+      out.write("            {\r\n");
+      out.write("                .tsrt-cstm-style\r\n");
+      out.write("                {\r\n");
+      out.write("                    margin-left: 25%;\r\n");
+      out.write("                } \r\n");
+      out.write("            }\r\n");
+      out.write("            .cust-img-show\r\n");
+      out.write("            {\r\n");
+      out.write("                display:  block;\r\n");
+      out.write("            }\r\n");
+      out.write("            .cust-img-hide\r\n");
+      out.write("            {\r\n");
+      out.write("                display:  none;\r\n");
+      out.write("                font-size: 25px;\r\n");
+      out.write("                color:#c22222;\r\n");
+      out.write("            }\r\n");
+      out.write("            @media(max-width:600px)\r\n");
+      out.write("            {\r\n");
+      out.write("                .cust-img-show\r\n");
+      out.write("                {\r\n");
+      out.write("                    display:  none;\r\n");
+      out.write("                }\r\n");
+      out.write("                .cust-img-hide\r\n");
+      out.write("                {\r\n");
+      out.write("                    display:  block;\r\n");
+      out.write("                }\r\n");
+      out.write("            }   \r\n");
+      out.write("            @media(min-width:934px)\r\n");
+      out.write("            {\r\n");
+      out.write("                .viewside-txt-shrt{\r\n");
+      out.write("                    padding-right:364px;\r\n");
+      out.write("                }\r\n");
+      out.write("                .view-txt-modal{\r\n");
+      out.write("                    display:none;   \r\n");
+      out.write("                }\r\n");
+      out.write("            }\r\n");
+      out.write("            @media(max-width:934px)\r\n");
+      out.write("            {\r\n");
+      out.write("                .hdn-txt-modal{\r\n");
+      out.write("                    display:none;\r\n");
+      out.write("                }\r\n");
+      out.write("                .view-txt-modal{\r\n");
+      out.write("                    font-size:20px;\r\n");
+      out.write("                }\r\n");
+      out.write("            }\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("        </style>\r\n");
+      out.write("\r\n");
+      out.write("        <div class=\"container-fluid\">\r\n");
+      out.write("            <div class=\"cust-img-show\">\r\n");
+      out.write("                <div class=\"row\">\r\n");
+      out.write("                    <div class=\"col-lg-12 col-md-12  col-sm-12 col-xs-12 tsrt-cstm-style\">\r\n");
+      out.write("                        <div class=\"text-center\" style=\"font-size:25px;margin-top:17px;margin-bottom: 30px;\"><strong>Customize Your T-Shirt Here</strong></div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("                <div class=\"row\" style=\"border-top:1px solid #c2c2c2;border-bottom:1px solid #c2c2c2\">\r\n");
+      out.write("                    <div class=\"col-lg-7 col-md-7 col-sm-9 col-xs-12  tsrt-cstm-style\" style=\"margin-top:35px;margin-bottom: 25px;\">\r\n");
+      out.write("\r\n");
+      out.write("                        <div style=\"float:left;\">\r\n");
+      out.write("                            <div style=\"width:650px;height:400px;border:1px solid #c4c4c4\" class=\"bg-thsirt-img widget frnt-tshirt\"   id=\"widget\">\r\n");
+      out.write("                                <canvas id=\"canvas\" style=\"margin-left:15px;margin-top:10px;box-shadow: rgba(0,0,0,0.2) 0 0 10px;\" width=\"615\" height=\"375\"></canvas>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div style=\"width:650px;height:400px;border:1px solid #c4c4c4;display:none;\" class=\"bg-back-thsirt-img widget img-responsive back-tshirt\" id=\"widget2\">\r\n");
+      out.write("                                <canvas id=\"canvas2\" style=\"margin-left:18px;margin-top:12px; box-shadow: rgba(0,0,0,0.2) 0 0 10px;\" width=\"615\" height=\"375\"></canvas>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                        <div style=\"float:left;\">\r\n");
+      out.write("                            <div style=\"cursor: pointer; box-shadow: rgba(0,0,0,0.2) 0 0 10px;\" class=\"text-center  clik-frntSide-btn\">\r\n");
+      out.write("                                <span class=\"\"><img width=\"80\" height=\"100\" src=\"assets/img/frontsideTshirt.png\"></span><br>\r\n");
+      out.write("\r\n");
+      out.write("                                <label><input type=\"radio\" name=\"optradio1\" id=\"frontSideBtn\" checked>Front</label><br>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div style=\"margin-top:5px;cursor: pointer;box-shadow: rgba(0,0,0,0.2) 0 0 10px;\" class=\"text-center clik-backSide-btn\">\r\n");
+      out.write("                                <span class=\"\"><img width=\"80\" height=\"100\" src=\"assets/img/backsideTshirt.png\"></span><br>\r\n");
+      out.write("                                <label><input type=\"radio\" name=\"optradio2\" id=\"BckSideBtn\">Back</label>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    <div class=\"col-sm-1 hidden-xs hidden-sm\" style=\"margin-top:15px;border-right:1px solid #c2c2c2;height:500px\"></div>\r\n");
+      out.write("                    <div class=\"col-lg-4 col-md-4   col-sm-12 col-xs-12 tsrt-cstm-style\" style=\"margin-top:35px;margin-bottom: 25px;\">\r\n");
+      out.write("                        <div style=\"float:right;\">\r\n");
+      out.write("                            <span style=\"margin-top: 15px;\" class=\"inpt-img-frnt\"> \r\n");
+      out.write("                                <input type=\"file\"   id=\"file\" style=\"display:none;\">\r\n");
+      out.write("                                <label for=\"file\" class=\"btn-styl\">Upload Image</label>\r\n");
+      out.write("                            </span>\r\n");
+      out.write("                            <span style=\"margin-top: 15px;\"> \r\n");
+      out.write("                                <button class=\"btn-styl add-frnt-txt\" style=\"width:93px;\" onclick=\"addText()\">Add Text</button>\r\n");
+      out.write("                            </span>\r\n");
+      out.write("                            <span style=\"margin-top: 15px; display:none;\" class=\"inpt-img-back\"> \r\n");
+      out.write("                                <input type=\"file\" class=\"\"  id=\"file2\"  style=\"display:none;\">\r\n");
+      out.write("                                <label for=\"file2\" class=\"btn-styl\">Upload Image</label>\r\n");
+      out.write("                            </span>\r\n");
+      out.write("                            <span style=\"margin-top: 15px;\">\r\n");
+      out.write("                                <button class=\"btn-styl add-back-txt\" style=\"display:none;width:93px;\" onclick=\"addTextback()\">Add Text</button>\r\n");
+      out.write("                            </span>\r\n");
+      out.write("                            <div style=\"margin-top: 15px;\" class=\"inpt-img-frnt\"> \r\n");
+      out.write("                                <button id=\"remove\" class=\"btn-styl\">Remove selected image or text</button>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div style=\"margin-top: 15px; display:none;\" class=\"inpt-img-back\" > \r\n");
+      out.write("                                <button id=\"remove2\" class=\"btn-styl \">Remove selected image or text</button>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div style=\"clear: both; float: left;margin-top:15px;\"> \r\n");
+      out.write("                                <select id=\"font\" class=\"btn-styl btn-styl add-frnt-txt\" style=\"padding:6px 0px;\">\r\n");
+      out.write("                                    <option>Arial</option>\r\n");
+      out.write("                                    <option>Tahoma</option>\r\n");
+      out.write("                                    <option>Times new Roman</option>\r\n");
+      out.write("                                    <option>Algerian</option>\r\n");
+      out.write("                                    <option>Blackadder ITC</option>\r\n");
+      out.write("                                    <option>Gigi</option>\r\n");
+      out.write("                                    <option>Freestyle Script</option>\r\n");
+      out.write("                                    <option>Wingdings 3</option>\r\n");
+      out.write("                                    <option>Traditional Arabic</option>\r\n");
+      out.write("                                </select>\r\n");
+      out.write("                            </div> \r\n");
+      out.write("                            <div  class=\"add-back-txt\" style=\"clear: both; float: left; display:none;\"> \r\n");
+      out.write("                                <select id=\"fontBack\" class=\"btn-styl\" style=\"padding:6px 0px;\">\r\n");
+      out.write("                                    <option>Arial</option>\r\n");
+      out.write("                                    <option>Tahoma</option>\r\n");
+      out.write("                                    <option>Times new Roman</option>\r\n");
+      out.write("                                    <option>Algerian</option>\r\n");
+      out.write("                                    <option>Blackadder ITC</option>\r\n");
+      out.write("                                    <option>Gigi</option>\r\n");
+      out.write("                                    <option>Freestyle Script</option>\r\n");
+      out.write("                                    <option>Wingdings 3</option>\r\n");
+      out.write("                                    <option>Traditional Arabic</option>\r\n");
+      out.write("                                </select>\r\n");
+      out.write("                            </div><br/><br/><br/>\r\n");
+      out.write("                            <div class=\"add-frnt-clr\" style=\"margin-top: 10px;\">\r\n");
+      out.write("                                <span style=\"color:#5a5a5a;font-size: 20px;margin-top: 10px\"><strong>  Text Color</strong></span> \r\n");
+      out.write("                                <input class=\"btn btn-default \" type=\"color\" value=\"White\" id=\"fill\" style=\"height:30px;\" />\r\n");
+      out.write("                            </div>\r\n");
+      out.write("\r\n");
+      out.write("                            <div style=\"margin-top: 10px;display:none;\" class=\"add-back-clr\">\r\n");
+      out.write("                                <span style=\"color:#5a5a5a;font-size: 20px;\"><strong>  Text Color</strong></span> \r\n");
+      out.write("                                <input class=\"btn btn-default \" style=\" height: 30px;\" type=\"color\" value=\"White\" id=\"fillBack\" style=\"height:30px;\" />\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div style=\"float:left; margin-top: 15px;\" class=\"show-both-canvas\">\r\n");
+      out.write("                                <button  class=\"btn-styl  \" tyle='button' data-target=\"#myModalFrontside\" data-toggle=\"modal\" onclick=\"onlyImage();\r\n");
+      out.write("                                        ImageCanvas();\r\n");
+      out.write("                                        onlyImageBack();\r\n");
+      out.write("                                        ImageCanvasBack();\" style=\"width:219px;\">PREVIEW / BUY</button>  \r\n");
+      out.write("\r\n");
+      out.write("                                <!--                            <button  class=\"btn-styl\"  style=\"width:219px\" tyle='button' data-target=\"#myModalBackside\" data-toggle=\"modal\" onclick='onlyImageBack();\r\n");
+      out.write("                                                                    ImageCanvasBack();' >See Back Side (PREVIEW)</button>  -->\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("            <div class=\"row\">\r\n");
+      out.write("                <div class=\"col-xs-12 text-center\">\r\n");
+      out.write("                    <div style=\"margin-top: 150px; margin-bottom: 150px;\" class=\"cust-img-hide text-center\">\r\n");
+      out.write("                        For customizing product open site in desktop\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("        <input type=\"hidden\" id=\"sendTshirtImgs\" data-uri='");
+      if (_jspx_meth_c_url_0(_jspx_page_context))
+        return;
+      out.write("'/>  \r\n");
+      out.write("\r\n");
+      out.write("        <div class=\"modal fade text-center\" id=\"myModalFrontside\" role=\"dialog\">\r\n");
+      out.write("            <div class=\"modal-dialog\" style=\"width:100%;\">\r\n");
+      out.write("                <!-- Modal content-->\r\n");
+      out.write("                <div class=\"modal-content\">\r\n");
+      out.write("                    <div class=\"modal-header hdn-one-cnvs\">\r\n");
+      out.write("                        <button  type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>                       \r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    <div class=\"modal-body\">\r\n");
+      out.write("                        <div class=\"view-txt-modal\"> Front Side View</div>\r\n");
+      out.write("                        <div style=\"font-size:20px;\" class=\"hdn-txt-modal\"><span class=\"viewside-txt-shrt\">Front Side View</span><span>Back Side View</span></div>\r\n");
+      out.write("                        <span><img class='imageViewcanvas'></span>\r\n");
+      out.write("                        <div class=\"view-txt-modal\"> Back Side View</div>\r\n");
+      out.write("                        <span><img class='imageViewcanvas1'></span>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                    <!--                    <form id=\"cropImage\" action=\"");
+      if (_jspx_meth_c_url_1(_jspx_page_context))
+        return;
+      out.write("\"  enctype=\"multipart/form-data\">                                     \r\n");
+      out.write("                                            <button  type=\"submit\" class=\"btn btn-danger show-submitBtn center-block\">Buy Now</button>                        \r\n");
+      out.write("                                        </form>-->\r\n");
+      out.write("                    <div style=\"margin:50px 0px;\" class=\"text-center shw-sbmt-btn\">\r\n");
+      out.write("                        <input type=\"button\" class=\"btn btn-danger center-block btn-lg\" id=\"send-tshirt-img\" value=\"Buy Now\" >                        \r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>\r\n");
+      out.write("            </div>\r\n");
+      out.write("        </div>\r\n");
+      out.write("\r\n");
+      out.write("        <!--        <div class=\"modal fade text-center\" id=\"myModalBackside\" role=\"dialog\">\r\n");
+      out.write("                    <div class=\"modal-dialog\">\r\n");
+      out.write("                         Modal content\r\n");
+      out.write("                        <div class=\"modal-content\">\r\n");
+      out.write("                            <div class=\"modal-header\">\r\n");
+      out.write("                                <button type=\"button\" class=\"close\" data-dismiss=\"modal\">&times;</button>\r\n");
+      out.write("                                <h4 class=\"modal-title\">Back Side View Of T-Shirt</h4>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"modal-body\">\r\n");
+      out.write("                                <img class='imageViewcanvas1'>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                            <div class=\"modal-footer\">\r\n");
+      out.write("                                <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close</button>\r\n");
+      out.write("                            </div>\r\n");
+      out.write("                        </div>\r\n");
+      out.write("                    </div>\r\n");
+      out.write("                </div>-->\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("        <script>\r\n");
+      out.write("            var canvas = new fabric.Canvas('canvas');\r\n");
+      out.write("            document.getElementById('file').addEventListener(\"change\", function (e) {\r\n");
+      out.write("                var file = e.target.files[0];\r\n");
+      out.write("                console.log(\"came 2\");\r\n");
+      out.write("                var reader = new FileReader();\r\n");
+      out.write("                console.log(\"came 3\");\r\n");
+      out.write("                reader.onload = function (f) {\r\n");
+      out.write("                    var data = f.target.result;\r\n");
+      out.write("                    var img = document.createElement('img');\r\n");
+      out.write("                    img.src = data;\r\n");
+      out.write("                    img.onload = function () {\r\n");
+      out.write("                        if (img.width < 500 || img.height < 500)\r\n");
+      out.write("                        {\r\n");
+      out.write("                            alert(\"upload image should be greater then 500px*500px\");\r\n");
+      out.write("                            canvas.getActiveObject().remove();\r\n");
+      out.write("                        }\r\n");
+      out.write("                    };\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("                    fabric.Image.fromURL(data, function (img) {\r\n");
+      out.write("                        var oImg = img.set({left: 20, top: 20, width: 200, height: 200, angle: 0}).scale(0.9);\r\n");
+      out.write("                        canvas.add(oImg).renderAll();\r\n");
+      out.write("                        var a = canvas.setActiveObject(oImg);\r\n");
+      out.write("                        var dataURL = canvas.toDataURL({format: 'png', quality: 0.8});\r\n");
+      out.write("\r\n");
+      out.write("                    });\r\n");
+      out.write("                };\r\n");
+      out.write("                reader.readAsDataURL(file);\r\n");
+      out.write("                console.log(\"came 4\");\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("            function addText() {\r\n");
+      out.write("                var oText = new fabric.IText('Tap and Type', {\r\n");
+      out.write("                    top: 100,\r\n");
+      out.write("                });\r\n");
+      out.write("                canvas.add(oText);\r\n");
+      out.write("                canvas.setActiveObject(oText);\r\n");
+      out.write("                $('#fill, #font').trigger('change');\r\n");
+      out.write("                oText.on('mousedown', function () {\r\n");
+      out.write("                    // bring the image to front\r\n");
+      out.write("                    oText.bringToFront();\r\n");
+      out.write("                });\r\n");
+      out.write("            }\r\n");
+      out.write("            $('#fill').change(function () {\r\n");
+      out.write("                var obj = canvas.getActiveObject();\r\n");
+      out.write("                if (obj) {\r\n");
+      out.write("                    obj.setFill($(this).val());\r\n");
+      out.write("                }\r\n");
+      out.write("                canvas.renderAll();\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("            $('#font').change(function () {\r\n");
+      out.write("                var obj = canvas.getActiveObject();\r\n");
+      out.write("                if (obj) {\r\n");
+      out.write("                    obj.setFontFamily($(this).val());\r\n");
+      out.write("                }\r\n");
+      out.write("                canvas.renderAll();\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            var frntImg = null;\r\n");
+      out.write("            var frntimgcnvas = null;\r\n");
+      out.write("\r\n");
+      out.write("            function onlyImage() {\r\n");
+      out.write("\r\n");
+      out.write("                canvas.deactivateAll().renderAll();\r\n");
+      out.write("                window.frntImg = canvas.toDataURL();\r\n");
+      out.write("            }\r\n");
+      out.write("            ;\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            function ImageCanvas() {\r\n");
+      out.write("                html2canvas($(\"#widget\"), {\r\n");
+      out.write("                    onrendered: function (canvas) {\r\n");
+      out.write("                        theCanvas = canvas;\r\n");
+      out.write("                        console.log(\"came in 2..............................\");\r\n");
+      out.write("                        window.frntimgcnvas = theCanvas.toDataURL();\r\n");
+      out.write("                        console.log(\"came in 2..............................\");\r\n");
+      out.write("                        document.querySelector('.imageViewcanvas').src = theCanvas.toDataURL();\r\n");
+      out.write("                    }\r\n");
+      out.write("                });\r\n");
+      out.write("            }\r\n");
+      out.write("            ;\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            var canvas2 = new fabric.Canvas('canvas2');\r\n");
+      out.write("            document.getElementById('file2').addEventListener(\"change\", function (e) {\r\n");
+      out.write("                var file2 = e.target.files[0];\r\n");
+      out.write("                console.log(\"came2 2\");\r\n");
+      out.write("                var reader = new FileReader();\r\n");
+      out.write("\r\n");
+      out.write("                console.log(\"came2 3\");\r\n");
+      out.write("                reader.onload = function (f) {\r\n");
+      out.write("                    var data = f.target.result;\r\n");
+      out.write("                    var img = document.createElement('img');\r\n");
+      out.write("                    img.src = data;\r\n");
+      out.write("\r\n");
+      out.write("                    img.onload = function () {\r\n");
+      out.write("                        if (img.width < 500 || img.height < 500)\r\n");
+      out.write("                        {\r\n");
+      out.write("                            alert(\"upload image should be greater then 500px*500px\");\r\n");
+      out.write("                            canvas2.getActiveObject().remove();\r\n");
+      out.write("                        }\r\n");
+      out.write("                    };\r\n");
+      out.write("\r\n");
+      out.write("                    fabric.Image.fromURL(data, function (img) {\r\n");
+      out.write("                        var oImg2 = img.set({left: 20, top: 20, width: 200, height: 200, angle: 0}).scale(0.9);\r\n");
+      out.write("                        canvas2.add(oImg2).renderAll();\r\n");
+      out.write("                        var a = canvas2.setActiveObject(oImg2);\r\n");
+      out.write("                        var dataURL = canvas2.toDataURL({format: 'png', quality: 0.8});\r\n");
+      out.write("\r\n");
+      out.write("                    });\r\n");
+      out.write("                };\r\n");
+      out.write("                reader.readAsDataURL(file2);\r\n");
+      out.write("                console.log(\"came 4\");\r\n");
+      out.write("            });\r\n");
+      out.write("            function addTextback() {\r\n");
+      out.write("                var oTextBack = new fabric.IText('Tap and Type', {\r\n");
+      out.write("                    top: 100\r\n");
+      out.write("                });\r\n");
+      out.write("                canvas2.add(oTextBack);\r\n");
+      out.write("                canvas2.setActiveObject(oTextBack);\r\n");
+      out.write("                $('#fillBack, #fontBack').trigger('change');\r\n");
+      out.write("\r\n");
+      out.write("                oTextBack.on('mousedown', function () {\r\n");
+      out.write("                    // bring the image to front\r\n");
+      out.write("                    oTextBack.bringToFront();\r\n");
+      out.write("                });\r\n");
+      out.write("            }\r\n");
+      out.write("            $('#fillBack').change(function () {\r\n");
+      out.write("                var obj = canvas2.getActiveObject();\r\n");
+      out.write("                if (obj) {\r\n");
+      out.write("                    obj.setFill($(this).val());\r\n");
+      out.write("                }\r\n");
+      out.write("                canvas2.renderAll();\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("            $('#fontBack').change(function () {\r\n");
+      out.write("                var obj = canvas2.getActiveObject();\r\n");
+      out.write("                if (obj) {\r\n");
+      out.write("                    obj.setFontFamily($(this).val());\r\n");
+      out.write("                }\r\n");
+      out.write("                canvas2.renderAll();\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            var backimg = null;\r\n");
+      out.write("            var backImgCanvs = null;\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            function onlyImageBack() {\r\n");
+      out.write("                console.log(\"came 5\");\r\n");
+      out.write("                canvas2.deactivateAll().renderAll();\r\n");
+      out.write("                window.backimg = canvas2.toDataURL();\r\n");
+      out.write("                console.log(\"came 6\");\r\n");
+      out.write("            }\r\n");
+      out.write("\r\n");
+      out.write("            function ImageCanvasBack() {\r\n");
+      out.write("                html2canvas($(\"#widget2\"), {\r\n");
+      out.write("                    onrendered: function (canvas2) {\r\n");
+      out.write("                        theCanvas2 = canvas2;\r\n");
+      out.write("                        window.backImgCanvs = theCanvas2.toDataURL();\r\n");
+      out.write("                        document.querySelector('.imageViewcanvas1').src = theCanvas2.toDataURL();\r\n");
+      out.write("                    }\r\n");
+      out.write("                });\r\n");
+      out.write("            }\r\n");
+      out.write("\r\n");
+      out.write("            $('.show-both-canvas').click(function () {\r\n");
+      out.write("                $('.frnt-tshirt').show();\r\n");
+      out.write("                $('.back-tshirt').show();\r\n");
+      out.write("            });\r\n");
+      out.write("            $('.hdn-one-cnvs').click(function () {\r\n");
+      out.write("                $('.back-tshirt').hide();\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            $('.clik-frntSide-btn').click(function () {\r\n");
+      out.write("                $('.frnt-tshirt').show();\r\n");
+      out.write("                $('.back-tshirt').hide();\r\n");
+      out.write("\r\n");
+      out.write("                $('.inpt-img-frnt').show();\r\n");
+      out.write("                $('.inpt-img-back').hide();\r\n");
+      out.write("                $('.add-back-txt').hide();\r\n");
+      out.write("                $('.add-frnt-txt').show();\r\n");
+      out.write("                $('.add-back-clr').hide();\r\n");
+      out.write("                $('.add-frnt-txt').show();\r\n");
+      out.write("                $('.add-frnt-clr').show();\r\n");
+      out.write("\r\n");
+      out.write("               $(\"#frontSideBtn\").prop(\"checked\", true);\r\n");
+      out.write("               $(\"#BckSideBtn\").prop('checked', false);\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            $('.clik-backSide-btn').click(function () {\r\n");
+      out.write("\r\n");
+      out.write("                $('.frnt-tshirt').hide();\r\n");
+      out.write("                $('.back-tshirt').show();\r\n");
+      out.write("                $('.frntimg-btn').hide();\r\n");
+      out.write("                $('.backimg-btn').show();\r\n");
+      out.write("                $('.inpt-img-back').show();\r\n");
+      out.write("                $('.inpt-img-frnt').hide();\r\n");
+      out.write("                $('.add-back-txt').show();\r\n");
+      out.write("                $('.add-frnt-txt').hide();\r\n");
+      out.write("                $('.add-back-clr').show();\r\n");
+      out.write("                $('.add-frnt-clr').hide();\r\n");
+      out.write("\r\n");
+      out.write("               $(\"#BckSideBtn\").prop(\"checked\", true);\r\n");
+      out.write("               $(\"#frontSideBtn\").prop('checked', false);\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("            $('#remove').on('click', function () {\r\n");
+      out.write("                alert('remove front');\r\n");
+      out.write("                canvas.getActiveObject().remove();\r\n");
+      out.write("            });\r\n");
+      out.write("            $('#remove2').on('click', function () {\r\n");
+      out.write("                alert('remove back');\r\n");
+      out.write("                canvas2.getActiveObject().remove();\r\n");
+      out.write("            });\r\n");
+      out.write("\r\n");
+      out.write("            $('#send-tshirt-img').click(function () {\r\n");
+      out.write("                console.log(\"Anuj 1-------------------------------------------------------------------\" + frntImg);\r\n");
+      out.write("                console.log(\"Anuj 2-------------------------------------------------------------------\" + frntimgcnvas);\r\n");
+      out.write("                console.log(\"Anuj 3-------------------------------------------------------------------\" + backimg);\r\n");
+      out.write("                console.log(\"Anuj 4-------------------------------------------------------------------\" + backImgCanvs);\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("\r\n");
+      out.write("                var url = $(\"#sendTshirtImgs\").data('uri');\r\n");
+      out.write("                console.log(\"url...   .      .....\" + url);\r\n");
+      out.write("                alert(\"url...   .      ..... \" + url);\r\n");
+      out.write("                $.ajax({\r\n");
+      out.write("                    url: url,\r\n");
+      out.write("                    type: 'POST',\r\n");
+      out.write("                    data: {\r\n");
+      out.write("                        frontimage: frntImg,\r\n");
+      out.write("                        frontimageCanvas: frntimgcnvas,\r\n");
+      out.write("                        backImg: backimg,\r\n");
+      out.write("                        backImgCanvas: backImgCanvs\r\n");
+      out.write("                    },\r\n");
+      out.write("                    success: function (response) {\r\n");
+      out.write("                        alert(\"a\");\r\n");
+      out.write("                    },\r\n");
+      out.write("                    complete: function (response) {\r\n");
+      out.write("                        alert(\"f\");\r\n");
+      out.write("                    },\r\n");
+      out.write("                    error: function (response) {\r\n");
+      out.write("                        alert(\"e\");\r\n");
+      out.write("                    }\r\n");
+      out.write("                });\r\n");
+      out.write("            });\r\n");
+      out.write("        </script>\r\n");
+      out.write("        <!--        <script>\r\n");
+      out.write("                    window.giftBoxUrlforZCust = '");
+      if (_jspx_meth_c_url_2(_jspx_page_context))
+        return;
+      out.write("';\r\n");
+      out.write("                    window.addCustomizeToGiftBox = '");
+      if (_jspx_meth_c_url_3(_jspx_page_context))
+        return;
+      out.write("';\r\n");
+      out.write("                </script> -->\r\n");
+      out.write("    </body>\r\n");
+      out.write("</html>\r\n");
+    } catch (Throwable t) {
+      if (!(t instanceof SkipPageException)){
+        out = _jspx_out;
+        if (out != null && out.getBufferSize() != 0)
+          out.clearBuffer();
+        if (_jspx_page_context != null) _jspx_page_context.handlePageException(t);
+        else throw new ServletException(t);
+      }
+    } finally {
+      _jspxFactory.releasePageContext(_jspx_page_context);
+    }
+  }
+
+  private boolean _jspx_meth_c_url_0(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  c:url
+    org.apache.taglibs.standard.tag.rt.core.UrlTag _jspx_th_c_url_0 = (org.apache.taglibs.standard.tag.rt.core.UrlTag) _jspx_tagPool_c_url_value_nobody.get(org.apache.taglibs.standard.tag.rt.core.UrlTag.class);
+    _jspx_th_c_url_0.setPageContext(_jspx_page_context);
+    _jspx_th_c_url_0.setParent(null);
+    _jspx_th_c_url_0.setValue("/p/customize-shirt-toserver");
+    int _jspx_eval_c_url_0 = _jspx_th_c_url_0.doStartTag();
+    if (_jspx_th_c_url_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_0);
+      return true;
+    }
+    _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_0);
+    return false;
+  }
+
+  private boolean _jspx_meth_c_url_1(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  c:url
+    org.apache.taglibs.standard.tag.rt.core.UrlTag _jspx_th_c_url_1 = (org.apache.taglibs.standard.tag.rt.core.UrlTag) _jspx_tagPool_c_url_value_nobody.get(org.apache.taglibs.standard.tag.rt.core.UrlTag.class);
+    _jspx_th_c_url_1.setPageContext(_jspx_page_context);
+    _jspx_th_c_url_1.setParent(null);
+    _jspx_th_c_url_1.setValue("/media/cust-image/upload/product-attribute");
+    int _jspx_eval_c_url_1 = _jspx_th_c_url_1.doStartTag();
+    if (_jspx_th_c_url_1.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_1);
+      return true;
+    }
+    _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_1);
+    return false;
+  }
+
+  private boolean _jspx_meth_c_url_2(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  c:url
+    org.apache.taglibs.standard.tag.rt.core.UrlTag _jspx_th_c_url_2 = (org.apache.taglibs.standard.tag.rt.core.UrlTag) _jspx_tagPool_c_url_value_nobody.get(org.apache.taglibs.standard.tag.rt.core.UrlTag.class);
+    _jspx_th_c_url_2.setPageContext(_jspx_page_context);
+    _jspx_th_c_url_2.setParent(null);
+    _jspx_th_c_url_2.setValue("/gift-box");
+    int _jspx_eval_c_url_2 = _jspx_th_c_url_2.doStartTag();
+    if (_jspx_th_c_url_2.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_2);
+      return true;
+    }
+    _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_2);
+    return false;
+  }
+
+  private boolean _jspx_meth_c_url_3(PageContext _jspx_page_context)
+          throws Throwable {
+    PageContext pageContext = _jspx_page_context;
+    JspWriter out = _jspx_page_context.getOut();
+    //  c:url
+    org.apache.taglibs.standard.tag.rt.core.UrlTag _jspx_th_c_url_3 = (org.apache.taglibs.standard.tag.rt.core.UrlTag) _jspx_tagPool_c_url_value_nobody.get(org.apache.taglibs.standard.tag.rt.core.UrlTag.class);
+    _jspx_th_c_url_3.setPageContext(_jspx_page_context);
+    _jspx_th_c_url_3.setParent(null);
+    _jspx_th_c_url_3.setValue((java.lang.String) org.apache.jasper.runtime.PageContextImpl.evaluateExpression("/giftbox/addproduct/${product.productId}/${product.productOfCityId}", java.lang.String.class, (PageContext)_jspx_page_context, null));
+    int _jspx_eval_c_url_3 = _jspx_th_c_url_3.doStartTag();
+    if (_jspx_th_c_url_3.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
+      _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_3);
+      return true;
+    }
+    _jspx_tagPool_c_url_value_nobody.reuse(_jspx_th_c_url_3);
+    return false;
+  }
+}
